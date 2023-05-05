@@ -30,8 +30,8 @@ import Router "./cap/Router";
 import CAPTypes "./cap/Types";
 import IC "./cap/IC";
 
-import ExtCore "../../../../ext/motoko/ext/Core";
 
+import ExtCore "./motoko/ext/Core";
 
 shared(msg) actor class Token(
     _logo: Text,
